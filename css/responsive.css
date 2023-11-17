@@ -1,0 +1,55 @@
+@media (max-width: 879px){
+    header nav a{
+        margin-left: 15px;
+    }
+    #sobre-mim #box{
+        flex-wrap: wrap;
+    }
+
+    #sobre-mim #box #conteudo{
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px){
+    header{
+        flex-direction: column;
+    }
+
+    header h1{
+        margin-bottom: 30px;
+    }
+
+    #introducao{
+        margin-top: -100px;
+    }
+}
+
+@media (max-width: 510px){
+    header nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #botao{
+        right: 15px;
+        bottom: 15px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 475px){
+    header h1{
+        font-size: 30px;
+    }
+
+    header nav a{
+        font-size: 16px;
+    }
+
+    #introducao p{
+        font-size: 20px;
+    }
+}
