@@ -1,13 +1,21 @@
-@media (max-width: 879px){
-    header nav a{
-        margin-left: 15px;
+@media (max-width: 1000px){
+    #projetos .container .card{
+        width: 300px;
     }
+}
+
+@media (max-width: 879px){
     #sobre-mim #box{
         flex-wrap: wrap;
     }
 
     #sobre-mim #box #conteudo{
         text-align: center;
+    }
+
+    #sobre-mim #box img{
+        width: 200px;
+        height: 200px;
     }
 }
 
@@ -23,6 +31,10 @@
     #introducao{
         margin-top: -100px;
     }
+
+    #projetos .container .card{
+        width: 200px;
+    }
 }
 
 @media (max-width: 510px){
@@ -32,9 +44,13 @@
         text-align: center;
     }
 
+    #sobre-mim #box{
+        padding: 20px;
+    }
+
     #botao{
-        right: 15px;
-        bottom: 15px;
+        right: 20px;
+        bottom: 20px;
         width: 40px;
         height: 40px;
     }
@@ -45,11 +61,30 @@
         font-size: 30px;
     }
 
-    header nav a{
+    header nav a, #box #conteudo #descricao{
         font-size: 16px;
+    }
+
+    #introducao{
+        margin-top: -180px;
     }
 
     #introducao p{
         font-size: 20px;
+    }
+
+    #habilidades ul li{
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+    }
+
+    #habilidades ul li p{
+        font-size: 14px;
+    }
+
+    #habilidades ul li img{
+        width: 40px;
+        height: 40px;
     }
 }
